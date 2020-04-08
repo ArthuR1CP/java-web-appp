@@ -1,1 +1,3 @@
-# devops_uclabs
+# maven-project
+
+Simple Maven Project
