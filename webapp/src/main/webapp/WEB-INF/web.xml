@@ -3,7 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
-  <display-name>Webapp</display-name>
+  <display-name>WebApp - ART UC Labs</display-name>
+  <filter>
+	<filter-name>javamelody</filter-name>
+	<filter-class>net.bull.javamelody.MonitoringFilter</filter-class>
+	<async-supported>true</async-supported>
+  </filter>
+  <filter-mapping>
+	<filter-name>javamelody</filter-name>
+	<url-pattern>/*</url-pattern>
+	<dispatcher>REQUEST</dispatcher>
+	<dispatcher>ASYNC</dispatcher>
+  </filter-mapping>
+  <listener>
+	<listener-class>net.bull.javamelody.SessionListener</listener-class>
+  </listener>
   <!--
   <servlet>
   <servlet-name>HelloWorldExample</servlet-name>
