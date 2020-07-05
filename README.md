@@ -1,3 +1,4 @@
-# maven-project
+# ART-UCLABS
 
-Simple Maven Project
+
+Java Web APP - Integrated with Maven
