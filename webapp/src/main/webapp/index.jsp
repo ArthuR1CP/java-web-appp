@@ -19,7 +19,7 @@
   <div class="w3-center">
   <h4>ART UC LABS</h4>
   <h1 class="w3-xxxlarge w3-animate-bottom">KUBERNETES CLUSTER</h1>
-  <h1 class="w3-xxxlarge w3-animate-bottom">Test Message Diploma</h1>
+  <h1 class="w3-xxxlarge w3-animate-bottom">Diploma Test Message</h1>
   </div>
 </header>
 
