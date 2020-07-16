@@ -20,7 +20,7 @@
   <div class="w3-center">
   <h4>ART UC LABS</h4>
   <h1 class="w3-xxxlarge w3-animate-bottom">KUBERNETES CLUSTER</h1>
-  <h1 class="w3-xxxlarge w3-animate-bottom">Diploma Test Message - v1.1  </h1>
+  <h1 class="w3-xxxlarge w3-animate-bottom">Diploma Test Message - v1.2  16 Iulie Ora 15:40 </h1>
   </div>
 </header>
 
